@@ -23,13 +23,13 @@ namespace Project_Eticaret.CORE.Entity
         public Guid? MasterID { get; set; }
         public Status Status { get; set; }
 
-        public DateTime CreatedDate { get; set; }
+        public DateTime? CreatedDate { get; set; }
         public string CreatedComputerName { get; set; }
         public string CreatedIP { get; set; }
         public string CreatedADUserName { get; set; } // Active Directory
         public int? CreatedBy { get; set; }
 
-        public DateTime ModifiedDate { get; set; }
+        public DateTime? ModifiedDate { get; set; }
         public string ModifiedComputerName { get; set; }
         public string ModifiedIP { get; set; }
         public string ModifiedADUserName { get; set; }
